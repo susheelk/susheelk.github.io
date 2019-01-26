@@ -98,7 +98,7 @@ body {
  * ------------------------------------------------------------------- */
 
 a {
-    color: #862121;
+    color: #0586c7;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -154,6 +154,10 @@ h1, .h01 {
     font-size: 3.6rem;
     line-height: 1.25;
     letter-spacing: -.1rem;
+}
+
+.sec-head {
+    font-size: 50pt;
 }
 
 @media only screen and (max-width: 600px) {
@@ -377,7 +381,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #862121;
+    background: #0586c7;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -386,7 +390,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #862121;
+    color: #0586c7;
 }
 
 dd {
@@ -517,7 +521,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #862121;
+    background: #0586c7;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -562,7 +566,7 @@ form,
     margin-left: -30px;
     margin-top: -30px;
     padding: 0;
-    background-color: #862121;
+    background-color: #0586c7;
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
     animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -830,8 +834,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus, 
 input[type="reset"].btn--primary:focus, 
 input[type="button"].btn--primary:focus {
-    background: #862121;
-    border-color: #862121;
+    background: #0586c7;
+    border-color: #0586c7;
 }
 
 
@@ -860,8 +864,8 @@ input[type="button"].btn--primary:focus {
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
-    border: 0.3rem solid #862121;
-    color: #862121;
+    border: 0.3rem solid #0586c7;
+    color: #0586c7;
 }
 
 .btn--pill, button.btn--pill {
@@ -1087,7 +1091,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #862121;
+    color: #0586c7;
 }
 
 .stats-tabs li a em {
@@ -1276,7 +1280,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h3 {
     font-family: "montserrat-semibold", sans-serif;
     font-size: 2rem;
-    color: #862121;
+    color: #0586c7;
     text-transform: uppercase;
     letter-spacing: .15rem;
     margin-top: 0;
@@ -1380,11 +1384,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-date {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
-    color: #862121;
+    color: #0586c7;
 }
 
 .blog-list .blog-date a {
-    color: #862121;
+    color: #0586c7;
 }
 
 .blog-list .blog-date a:hover, 
@@ -1409,7 +1413,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-cat a:hover, 
 .blog-list .blog-cat a:focus, 
 .blog-list .blog-cat a:active {
-    color: #862121;
+    color: #0586c7;
 }
 
 .blog-list .blog-cat a::after {
@@ -1782,7 +1786,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h3 {
     font-family: "montserrat-bold", sans-serif;
     font-size: 1.8rem;
-    color: #862121;
+    color: #0586c7;
     text-transform: uppercase;
     letter-spacing: .5rem;
     position: relative;
@@ -1796,7 +1800,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     content: "";
     width: 60px;
     height: 2px;
-    background-color: #862121;
+    background-color: #1fb3fd ;
     margin-top: -1.5px;
     position: absolute;
     left: 0;
@@ -2989,7 +2993,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__col--highlight .stats__count::after {
-    background-color: #862121;
+    background-color: #0586c7;
 }
 
 .stats__col--highlight h4 {
@@ -3101,7 +3105,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #862121;
+    background: #0586c7;
 }
 
 .s-contact .form-field label::after {
@@ -3112,7 +3116,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #862121;
+    border-right: 5px solid #0586c7;
 }
 
 .contact__main {
@@ -3156,8 +3160,8 @@ html.no-csstransitions .home-content__main {
 
 .contact__form button {
     margin-top: 4.2rem;
-    background-color: #862121;
-    border-color: #862121;
+    background-color: #0586c7;
+    border-color: #0586c7;
 }
 
 .message-warning, .message-success {
@@ -3317,7 +3321,7 @@ footer {
 }
 
 footer a, footer a:visited {
-    color: #862121;
+    color: #0586c7;
 }
 
 footer a:hover, footer a:focus {

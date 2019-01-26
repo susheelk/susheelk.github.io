@@ -449,6 +449,7 @@ input[type="password"], textarea {
 }
 
 .col-twelve, .col-full {
+    
     width: 100%;
 }
 
