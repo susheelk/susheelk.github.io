@@ -12,6 +12,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+
 
 
     <!--- basic page needs
@@ -89,7 +92,7 @@
 
                 <h3 style="color: #1fb3fd ">Hello There!</h3>
                 <h1 style="width: 100%; font-family: Roboto; font-weight: bold">I'm Susheel Kona</h1>
-                 <h1 style="font-size: 3rem; line-height: 30pt; font-family: Roboto; letter-spacing: 1px">
+                 <h1 id="tagline" style="line-height: 30pt; font-family: Roboto; letter-spacing: 1px">
                      Computer Science Student at the University of Waterloo and Independent Software Developer
                  </h1>
                 <!-- <div class="home-content__buttons">
@@ -103,7 +106,7 @@
 
                 <div class="home-content__scroll">
                     <a href="#about" class="scroll-link smoothscroll">
-                        <span>Scroll Down</span>
+                        <span>About Me</span>
                     </a>
                 </div>
                 
@@ -141,7 +144,7 @@
                     users to access important information accurately and transparently. When I'm not programming, I love debating and playing drums.</p>
             </div>
             <div style="align-content: auto; width: 100%">
-                <a href="resume.pdf" target="_blank" class="btn btn--primary full-width">Download My Resume</a>
+                <a href="resume.pdf" target="_blank" class="btn btn--primary">Download My Resume</a>
             </div>
         </div>
 
@@ -209,7 +212,7 @@
         <div class="row about-content about-content--timeline">
 
             <div class="col-full text-center">
-                <h3 style="color: #0586c7; font-size: 3rem">MY RELEVANT EXPERIENCE</h3>
+                <h3 style="color: #0586c7; font-size: 3rem">MY EXPERIENCE</h3>
             </div>
 
             <div class="col-six tab-full left">
@@ -277,6 +280,23 @@
 
         </div> 
         <!-- end about-content timeline -->
+
+        <section id="" style="text-align: center">
+            <h3 style="color: #0586c7; font-size: 3rem">LANGUAGES AND TOOLS</h3>
+            <p style="font-size: 50pt; padding: 10px">
+                <i class="fab fa-java"></i>
+                <img src="images/skills/spring.png" style="width: 50pt; height: auto; margin-top: -10px">
+                <i class="fab fa-android"></i>
+                <img src="images/skills/sql.png" style="width: 50pt; height: auto; margin-top: -10px">
+                <i class="fab fa-node"></i>
+                <i class="fab fa-npm"></i>
+                <i class="fab fa-spring"></i>
+                <i class="fab fa-angular"></i>
+                <i class="fab fa-windows"></i>
+                <i class="fab fa-linux"></i>
+            </p>
+            </div>
+        </section>
 
 
     </section> <!-- end about -->
@@ -591,7 +611,10 @@
 
     </section> <!-- end works -->
 
+
+
     <template>
+
     <!-- testimonials
     ================================================== -->
     <div class="s-testimonials">
@@ -643,6 +666,7 @@
         </div> <!-- end testimonials -->
 
     </div> <!-- end s-testimonials -->
+    
     </template>
 
 
@@ -736,6 +760,7 @@
     </section> <!-- end s-blog -->
 
 
+
     <!-- s-cta
     ================================================== -->
     <section class="s-cta">
@@ -761,10 +786,12 @@
         
     </section>
 
+    </template>
 
+    <template>
     <!-- s-stats
     ================================================== -->
-    <section id="stats" class="s-stats">
+    <!-- <section id="stats" class="s-stats">
         <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
 
             <div class="col-block stats__col ">
@@ -796,9 +823,11 @@
             </div>
 
         </div>
-    </section> <!-- end s-stats -->
+    </section> -->
 
+    </template>
 
+    <template>
     <!-- s-stats
     ================================================== -->
     <section id="contact" class="s-contact target-section">
@@ -883,6 +912,8 @@
 
     </template>
 
+    <!-- </template> -->
+
     <!-- footer
     ================================================== -->
     <footer>
@@ -894,15 +925,15 @@
                 </div>
 
                 <ul class="footer-social">
-                    <li><a href="#0">
+                    <li><a href="https://github.com/susheelk">
                         <i class="im im-github" aria-hidden="true"></i>
                         <span>Github</span>
                     </a></li>
-                    <li><a href="#0">
+                    <li><a href="https://linkedin.com/in/susheel-kona">
                         <i class="im im-linkedin" aria-hidden="true"></i>
                         <span>Linkedin</span>
                     </a></li>
-                    <li><a href="#0">
+                    <li><a href="mailto:susheel.kona@uwaterloo.ca">
                         <i class="im im-mail" aria-hidden="true"></i>
                         <span>Email</span>
                     </a></li>
@@ -915,8 +946,8 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright Hola 2017</span> 
-                    <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
+                    <span>© Copyright Susheel Kona 2017</span> 
+                    <span style="color: #1c1c1c">Design by styleshout</span>	
                 </div>
 
                 <div class="go-top">
